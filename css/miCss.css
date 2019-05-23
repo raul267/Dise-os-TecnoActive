@@ -1,0 +1,184 @@
+body
+{
+	width:1920px;
+	height:1080px;
+	background-image: url("../img/fondoBody.jpg");
+
+}
+#divIzquierdo
+{
+	width:420px;
+	height:900px;
+	background-color:#CAC7C7;
+	float:left;
+}
+.imgLogo
+{
+	width:400px;
+	margin:20px;
+
+}
+.btnCumpleanos
+{
+	margin-left:10px;
+	width:390px;
+	border-radius:15px;
+	background-color:#65CEF5;
+	color:white;
+	font-size:25px;
+}
+.divSeparacion
+{
+	margin-top:5px;
+	width:420;
+	background-color:black;
+	height:3px;
+}
+.divCumple
+{
+	width:200px;
+	margin:30px;
+	float:left;
+}
+.nombreCumple
+{
+	font-size:30px;
+}
+.cargoCumple
+{
+	font-size:20px;
+}
+.divCalendario
+{
+	width:100px;
+	margin:30px;
+	float:right;
+}
+.lblDia
+{
+	width:75px;
+	border-radius:15px 15px 0px 0px;
+	text-align:center;
+	background-color:#9EFD80;
+}
+.fondoCalendario
+{
+	background-color:white;
+	height:75px;
+	width:75px;
+	margin-top:-10px;
+	border-radius:0px 0px 15px 15px;
+}
+.lblNumero
+{
+	text-align:center;
+	display:block;
+	font-size:35px;
+}
+.divCentro
+{
+	width:1500;
+	height:900px;
+	background-color:white;
+	float:right;
+}
+.asdsad
+{
+	width:1500px;
+	height:900px;
+}
+.divFooter
+{
+	width:1920px;
+	height:180px;
+	background-color:#CAC7C7;
+	float:left;
+}
+.divWifi
+{
+	width:100px;
+	float:left;
+}
+.wifi
+{
+	margin:30px;
+	height:80px;
+	width:80px;
+}
+
+.divMensaje
+{
+	float:left;
+	margin:40px;
+}
+.divMensaje
+{
+	width:900px;
+	font-size:30px;
+
+}
+.divGrados
+{
+	float:left;
+}
+.grados
+{
+	margin:30px;
+	margin-right:-20px;
+	font-size:50px;
+}
+.divClima
+{
+	float:left;
+}
+.clima
+{
+	margin:10px;
+	width: 150px;
+	height:150px;
+}
+.divReloj
+{
+	float:left;
+	width:500px;
+}
+.slider
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.slider ul
+{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li
+{
+	width: 100%;
+	list-style: none;
+}
+
+.slider img
+{
+	width: 100%;
+}
+
+@keyframes cambio
+{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
