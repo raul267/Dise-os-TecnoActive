@@ -1,0 +1,49 @@
+body
+{
+	width:1920px;
+	height:1080px;
+	background-image: url("../img/fondoBody2.jpg");
+
+}
+#divArriba
+{
+  width: 1920px;
+  height: 150px;
+  background:rgba(206, 203, 202, 0.8);
+  border-radius: 35px 35px 0px 0px;
+  border: 1px solid;
+}
+#imgNoticia
+{
+  width: 80px;
+  height: 80px;
+  padding-top: 30px;
+  margin-left: 50px;
+}
+#divReloj
+{
+  float:right;
+  margin
+}
+#divAlmedio
+{
+  width: 1920px;
+  height: 780;
+  background:rgba(255, 255, 255, 0.6);
+}
+#divAbajo
+{
+  width: 1920px;
+  height: 150px;
+  background:rgba(206, 203, 202, 0.9);
+  border-radius: 0px 0px 35px 35px;
+  border: 1px solid;
+
+}
+#imgLogo
+{
+  float:left;
+  width: 600px;
+  height: 100px;
+  padding-top: 30px;
+}

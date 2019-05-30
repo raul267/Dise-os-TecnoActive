@@ -8,18 +8,35 @@
     <title></title>
 
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/miCss.css">
+    <link rel="stylesheet" href="css/miCss2.css">
     <link rel="stylesheet" href="css/clima.css">
   </head>
   <body>
-    <div id="divIzquierdo" style="border:2px solid; border-radius:35px; background:rgba(255,255,255,0.8);">
-        <img src="img/logoTecnoactive.png" class="imgLogo" alt="">
-    </div>
-    <div class="divCentro" style="opacity:0.7; border:2px solid; border-radius:35px; ">
+      <div id="divArriba">
+          <img src="img/logoTecnoactive.png" id="imgLogo" alt="">
+          <img src="img/calendario.png" id="imgNoticia" alt="">
+          <div id="divReloj">
+            <div id="a"></div>
+               <div id="picture"></div>
+               <input type="hidden"id="result"/>
+          </div>
+      </div>
+      <div id="divAlmedio">
 
-    </div>
-    <div class="divFooter" style="background-color:red; border:2px solid; border-radius:35px;  ">
+      </div>
+      <div id="divAbajo">
 
-    </div>
+
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="js/reloj.js" charset="utf-8"></script>
+  <script type="text/javascript">
+  $( document ).ready(function(){
+      var d = new Date();
+      console.log(d.getDay().toString()+d.getMonth().toString());
+    });
+  </script>
   </body>
 </html>

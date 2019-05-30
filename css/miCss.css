@@ -5,12 +5,16 @@ body
 	background-image: url("../img/fondoBody.jpg");
 
 }
+.redondeado
+{
+		border-radius: 35px;
+}
 #divIzquierdo
 {
 	width:420px;
 	height:900px;
-	background-color:#CAC7C7;
 	float:left;
+	background:rgba(206, 203, 202, 0.6);
 }
 .imgLogo
 {
@@ -18,12 +22,37 @@ body
 	margin:20px;
 
 }
+.divRedondo
+{
+	border-radius: 200px 200px 200px 200px;
+	margin-top: 10px;
+	width: 110px;
+	height: 110px;
+	background-color: #7FFE5C;
+	float: left;
+	border: 4px solid;
+}
+.mesCumpleaños
+{
+	margin-top: 8px;
+	margin-left: 13px;
+	font-size: 24px;
+	font-family: fantasy;
+	font-style: oblique;
+
+}
+.diaCumpleaños
+{
+		margin-left: 35px;
+		margin-top: -20px;
+		font-size: 50px;
+}
 .btnCumpleanos
 {
 	margin-left:10px;
 	width:390px;
 	border-radius:15px;
-	background-color:#65CEF5;
+	background: rgba(19, 19, 19, 0.2);
 	color:white;
 	font-size:25px;
 }
@@ -39,14 +68,16 @@ body
 	width:200px;
 	margin:30px;
 	float:left;
+
 }
 .nombreCumple
 {
-	font-size:30px;
+	font-size:35px;
+	font-family: helvetica;
 }
 .cargoCumple
 {
-	font-size:20px;
+	font-size:25px;
 }
 .divCalendario
 {
@@ -60,6 +91,7 @@ body
 	border-radius:15px 15px 0px 0px;
 	text-align:center;
 	background-color:#9EFD80;
+	font-family: : cursive;
 }
 .fondoCalendario
 {
@@ -75,23 +107,64 @@ body
 	display:block;
 	font-size:35px;
 }
+.divHeaderNoticias
+{
+	width:380px;
+	float:left;
+	margin-left:20px;
+	background-color:white;
+	border-radius: 35px 35px 0px 0px;
+	border: 1px solid;
+}
+.divBodyNoticias
+{
+	width:380px;
+	height:180px;
+	float:left;
+	margin-left:20px;
+	margin-top:-10px;
+	background-color:white;
+	border-radius: 0px 0px 35px 35px;
+	border: 1px solid;
+}
+.imgNoticia
+{
+	margin:5px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	height:50px;
+	width:50px;
+}
+.tituloNoticia
+{
+	font-family: fantasy;
+	margin-left:8px;
+	font-size:30px;
+}
+.cuerpoNoticia
+{
+	font-size:22px;
+	 margin-left: 10px;
+	 font-family: fantasy;
+}
 .divCentro
 {
 	width:1500;
 	height:900px;
-	background-color:white;
 	float:right;
+	border-radius: 35px 35px 35px 35px;
+	background:rgba(255, 255, 255, 0.4);
 }
 .asdsad
 {
-	width:1500px;
-	height:900px;
+	width:1100px;
+	height:500px;
 }
 .divFooter
 {
 	width:1920px;
 	height:180px;
-	background-color:#CAC7C7;
+  background:rgba(255, 255, 255, 0.8);
 	float:left;
 }
 .divWifi
@@ -110,6 +183,7 @@ body
 {
 	float:left;
 	margin:40px;
+	font-style: Courier;
 }
 .divMensaje
 {
@@ -120,6 +194,8 @@ body
 .divGrados
 {
 	float:left;
+	font-weight: bold;
+	margin-top: 25px;
 }
 .grados
 {
@@ -134,18 +210,21 @@ body
 .clima
 {
 	margin:10px;
-	width: 150px;
-	height:150px;
+	margin-left: 30px;
+	width: 120px;
+	height:120px;
 }
 .divReloj
 {
 	float:left;
 	width:500px;
+	margin-left: 70px;
 }
 .slider
 {
 	width: 100%;
 	overflow: hidden;
+	border-radius: 0px 45px 45px 0px;
 }
 
 .slider ul
