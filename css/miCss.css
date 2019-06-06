@@ -7,7 +7,7 @@ body
 }
 .redondeado
 {
-		border-radius: 35px;
+	/*	border-radius: 35px;*/
 }
 #divIzquierdo
 {
@@ -69,15 +69,20 @@ body
 	margin:30px;
 	float:left;
 
+
 }
 .nombreCumple
 {
 	font-size:35px;
-	font-family: helvetica;
+	font-family: Gloria Hallelujah;
 }
 .cargoCumple
 {
 	font-size:25px;
+}
+p
+{
+	font-family: Gloria Hallelujah;
 }
 .divCalendario
 {
@@ -152,7 +157,7 @@ body
 	width:1500;
 	height:900px;
 	float:right;
-	border-radius: 35px 35px 35px 35px;
+	/*border-radius: 35px 35px 35px 35px;*/
 	background:rgba(255, 255, 255, 0.4);
 }
 .asdsad

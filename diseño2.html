@@ -6,26 +6,36 @@
   	<meta http-equiv=»Content-Type» content=»text/html; charset=utf-8″ />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Courgette|Gloria+Hallelujah|Indie+Flower|Lobster|PT+Sans+Narrow|Tangerine&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/miCss2.css">
     <link rel="stylesheet" href="css/clima.css">
   </head>
   <body>
       <div id="divArriba">
-          <img src="img/logoTecnoactive.png" id="imgLogo" alt="">
-          <img src="img/calendario.png" id="imgNoticia" alt="">
-          <div id="divReloj">
-            <div id="a"></div>
-               <div id="picture"></div>
-               <input type="hidden"id="result"/>
-          </div>
+        <img src="img/logoTecnoactive.png" id="imgLogo" alt="">
+        <div id="divClima">
+          <label id="clima">9°</label>
+          <img src="img/cloud.png" id="imgClima" alt="">
+        </div>
       </div>
       <div id="divAlmedio">
 
       </div>
       <div id="divAbajo">
-
+        <div id="divCalendario">
+          <img src="img/calendar.svg" id="imgCalendario" alt="">
+          <h1 id="fecha">30/05/2019</h1>
+        </div>
+        <div id="divDesarroladoPor">
+          <label style="font-family:Alegreya Sans" id="lblDesarrolladoPor">Desarrollado por:</label><br>
+          <img src="img/logoTecnoactive.png" id="imgTecnoActive" alt="">
+        </div>
+        <div id="divReloj">
+          <div id="a"></div>
+             <div id="picture"></div>
+             <input type="hidden"id="result"/>
+        </div>
 
       </div>
 
@@ -35,7 +45,8 @@
   <script type="text/javascript">
   $( document ).ready(function(){
       var d = new Date();
-      console.log(d.getDay().toString()+d.getMonth().toString());
+      var dias = array["Lunes","Martes", "Miercoles","Jueves","Viernes","Sabado", "Domingo"];
+      console.log(dias[d.getDay().toString()]+d.getMonth().toString());
     });
   </script>
   </body>

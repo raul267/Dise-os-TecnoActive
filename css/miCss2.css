@@ -13,17 +13,43 @@ body
   border-radius: 35px 35px 0px 0px;
   border: 1px solid;
 }
-#imgNoticia
+#divClima
 {
-  width: 80px;
-  height: 80px;
-  padding-top: 30px;
-  margin-left: 50px;
+	float: right;
+	margin-right: 30px;
+}
+#imgClima
+{
+	width: 150px;
+	height: 150px;
+	margin-bottom: 100px;
+}
+#clima
+{
+	font-size: 100px;
+}
+#imgCalendario
+{
+	float: left;
+  width: 120px;
+  height:120px;
+  padding-top: 15px;
+	margin-left: 10px;
+}
+#divCalendario
+{
+	float: left;
+	margin-top: 10px;
+}
+#fecha
+{
+	float: left;
+	font-size: 100px;
 }
 #divReloj
 {
   float:right;
-  margin
+  margin-right: 40px;
 }
 #divAlmedio
 {
@@ -38,12 +64,29 @@ body
   background:rgba(206, 203, 202, 0.9);
   border-radius: 0px 0px 35px 35px;
   border: 1px solid;
-
 }
 #imgLogo
 {
   float:left;
   width: 600px;
   height: 100px;
-  padding-top: 30px;
+  padding-top: 50px;
+}
+#divDesarroladoPor
+{
+	float:left;
+	margin-left: 40px;
+
+}
+#lblDesarrolladoPor
+{
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 20px;
+}
+#imgTecnoActive
+{
+	width: 600px;
+	height: 100px;
+	margin-bottom: 20px;
 }
