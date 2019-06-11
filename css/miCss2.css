@@ -17,6 +17,7 @@ body
 {
 	float: right;
 	margin-right: 30px;
+	font-family: Roboto Mono;
 }
 #imgClima
 {
@@ -45,6 +46,7 @@ body
 {
 	float: left;
 	font-size: 100px;
+	font-family: Roboto Mono;
 }
 #divReloj
 {
@@ -69,8 +71,8 @@ body
 {
   float:left;
   width: 600px;
-  height: 100px;
-  padding-top: 50px;
+  height: 130px;
+  padding-top: 10px;
 }
 #divDesarroladoPor
 {

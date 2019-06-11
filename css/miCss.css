@@ -3,7 +3,7 @@ body
 	width:1920px;
 	height:1080px;
 	background-image: url("../img/fondoBody.jpg");
-
+	font-family: Raleway;
 }
 .redondeado
 {
@@ -15,6 +15,7 @@ body
 	height:900px;
 	float:left;
 	background:rgba(206, 203, 202, 0.6);
+	border: 1px solid;
 }
 .imgLogo
 {
@@ -34,22 +35,23 @@ body
 }
 .mesCumpleaños
 {
-	margin-top: 8px;
-	margin-left: 13px;
-	font-size: 24px;
-	font-family: fantasy;
-	font-style: oblique;
+	margin-top: 13px;
+	margin-left: 10px;
+	font-size: 23px;
+	font-family: Raleway;
 
 }
 .diaCumpleaños
 {
 		margin-left: 35px;
-		margin-top: -20px;
+		margin-top: -25px;
+		font-family: Raleway;
 		font-size: 50px;
 }
 .btnCumpleanos
 {
 	margin-left:10px;
+	margin-top: 10px;
 	width:390px;
 	border-radius:15px;
 	background: rgba(19, 19, 19, 0.2);
@@ -74,7 +76,7 @@ body
 .nombreCumple
 {
 	font-size:35px;
-	font-family: Gloria Hallelujah;
+	font-family: Raleway;
 }
 .cargoCumple
 {
@@ -82,7 +84,7 @@ body
 }
 p
 {
-	font-family: Gloria Hallelujah;
+font-family: Raleway;
 }
 .divCalendario
 {
@@ -96,7 +98,7 @@ p
 	border-radius:15px 15px 0px 0px;
 	text-align:center;
 	background-color:#9EFD80;
-	font-family: : cursive;
+	font-family: Raleway;
 }
 .fondoCalendario
 {
@@ -114,19 +116,20 @@ p
 }
 .divHeaderNoticias
 {
-	width:380px;
+	width:400px;
 	float:left;
-	margin-left:20px;
+	margin-left:7px;
 	background-color:white;
 	border-radius: 35px 35px 0px 0px;
 	border: 1px solid;
+
 }
 .divBodyNoticias
 {
-	width:380px;
-	height:180px;
+	width:400px;
+	height:200px;
 	float:left;
-	margin-left:20px;
+	margin-left:7px;
 	margin-top:-10px;
 	background-color:white;
 	border-radius: 0px 0px 35px 35px;
@@ -135,22 +138,26 @@ p
 .imgNoticia
 {
 	margin:5px;
-	margin-left: 20px;
+	margin-left: 15px;
 	margin-bottom: 10px;
-	height:50px;
-	width:50px;
+	height:40px;
+	width:40px;
 }
 .tituloNoticia
 {
-	font-family: fantasy;
-	margin-left:8px;
+	font-family: Raleway;
+	margin-left:1px;
 	font-size:30px;
+	font-weight: bold;
 }
 .cuerpoNoticia
 {
-	font-size:22px;
-	 margin-left: 10px;
-	 font-family: fantasy;
+	 font-size:26px;
+	 margin-top: 0px;
+	 margin-left: 5px;
+	 font-family: Raleway;
+	 font-weight: bold;
+
 }
 .divCentro
 {
@@ -159,6 +166,7 @@ p
 	float:right;
 	/*border-radius: 35px 35px 35px 35px;*/
 	background:rgba(255, 255, 255, 0.4);
+	border: 1px solid;
 }
 .asdsad
 {
@@ -171,6 +179,7 @@ p
 	height:180px;
   background:rgba(255, 255, 255, 0.8);
 	float:left;
+	border: 1px solid;
 }
 .divWifi
 {
@@ -195,6 +204,12 @@ p
 	width:900px;
 	font-size:30px;
 
+}
+.mensaje
+{
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: -10px;
 }
 .divGrados
 {

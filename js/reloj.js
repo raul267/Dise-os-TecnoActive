@@ -33,7 +33,7 @@ var h2 = ("0" + h).slice(-2);
 var m2 = ("0" + m).slice(-2);
 var s2 = ("0" + s).slice(-2);
 y.style.fontSize = "100px";
-y.style.fontFamily = "Times New Roman, Times, serif";
+y.style.fontFamily = "Reboto Mono";
 y.innerHTML= h2 + ":" + m2 + ":" + s2;
 }
 setInterval(displayTime, 1000);
